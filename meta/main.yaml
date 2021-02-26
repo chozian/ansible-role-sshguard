@@ -40,5 +40,4 @@ galaxy_info:
     - ssh
 
 dependencies:
-  - role: geerlingguy.repo-epel
-    when: ansible_os_family == "RedHat"
+  - src: git+https://github.com/chozian/ansible-role-repo-epel.git
